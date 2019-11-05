@@ -1,0 +1,33 @@
+.article {
+    border: 1px solid black;
+    display: flex;
+    margin-bottom: 40px;
+    padding: 50px;
+}
+
+.article .image {
+    height: 100px;
+    width: 100px;s
+    flex: none;
+    background: blueviolet;
+    margin-right: 10px;
+    
+}
+
+.article .article-text h1 {
+    margin: 0;
+}
+
+.article .article-text button {
+    background: cadetblue;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s all ease;
+}
+
+.article .article-text button:hover {
+    background: #a5a22b;
+    border-radius: 10px;
+}
